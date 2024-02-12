@@ -1,0 +1,89 @@
+.title-class{
+    background-image: url("./images/travel1.jpg");
+    height: 100vh;
+background-size: 100% 100% ;
+background-repeat: no-repeat;
+
+}
+
+.form-control{
+    border-radius: 30px 30px 30px 30px;
+    
+}
+
+.title-btn{
+    position:relative; 
+    bottom: 38px;
+    left: 220px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #40A2E3;
+    border-color:#40A2E3 ;
+    
+}
+.title-btn:hover{
+    background-color: #92C7CF;
+    border-color: #92C7CF;
+}
+
+.card-img-top{
+    height: 100%;
+}
+.card:hover {
+    transform: scale(1.1);
+  }
+  .card {
+    border: none;
+    transition: transform 0.5s;
+    
+   
+  }
+.feature>.feature-icon{
+    margin-left: 10rem;
+    
+}
+.dest>.card:hover{
+    transform: scale(0.5);
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color:#ECF9FF;
+}
+.navbar{
+    font-weight: bold;
+    
+}
+h2,h3,h4,h5{
+    font-family: 'Kanit', sans-serif;
+   
+}
+
+.card-title,h2,h5{
+    color: #213555;
+}
+h1{
+    font-family: 'Kanit', sans-serif;
+    font-weight:300 ;
+    font-size: 350%;
+    color:#F2EFE5;
+}
+
+p{
+    font-family: 'Kanit', sans-serif;
+   font-weight: 200;
+}
+
+
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 20px 5px 30px 30px;
+    border: 2px solid;
+    border-color:#192655;
+}
+ @media (max-width:765px)  {
+    .title-class{
+    height: 200vh;
+    }
+    
+}
